@@ -1,0 +1,195 @@
+.description-pizza{
+  text-align: center;
+}
+.img-like-thumbnail,.img-thumbnail-like{
+    width: 200px;
+    height: 200px;
+    padding:0.25rem;
+    border-radius: 0.25rem;
+    max-width: 100%;
+  }
+
+  .img-thumbnail{
+		width: 200px;
+		height: 200px;
+	}
+  body{
+    background-color: rgb(247 247 247);
+  }
+  a .img-thumbnail:hover, a .img-thumbnail-like:hover{
+		width: 250px;
+		margin-left:-5px;
+		height : 250px;
+    margin-top:-20px;
+    transition: 0.6s;
+	}
+
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .aide{
+        font-size: 0.8em;
+        color:red;
+        opacity:0.7;
+    }
+.title_remy{
+  font-size: 1.8em;
+  color: black;
+  /*border: 2px solid black;*/
+  padding: 5px;
+  background-color: rgb(247 247 247);
+  border-radius:0.2rem;
+}
+a.title_remy:hover{
+  transition: 0.5s;
+  color: white;
+  background-color: rgb(0 123 255);
+  text-decoration: none;
+}
+.image_panier{
+  width: 40px;
+  height: 40px;
+}
+a .image_panier:hover{
+  transition: 0.6s;
+  width: 45px;
+  height: 45px;
+}
+.panier_vide{
+  position : relative;
+  padding: 250px;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  min-height: 85vh;
+  background-color: rgb(0 123 255);
+  color: white;
+}
+.bouton_panier{
+  display: none;
+}
+.card-ingredient{
+  display: none;
+}
+.ligne_livraison{
+  display: none;
+}
+.image_panier_commande{
+  width:190px; 
+  border-radius: 10px;
+}
+.lien_ingredient{
+  padding: 5px;
+}
+a.lien_ingredient:hover{
+  color:  white;
+  background-color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.lien_ingredient_add{
+  margin:1px;
+}
+a.lien_ingredient_add:hover{
+  text-decoration: none;
+}
+a .button_ingredient_real_add:hover{
+  color: white;
+  background-color: #28a745;
+  transition: 0.2s;
+}
+.button_ingredient_real_add{
+  display: inline-block;
+  margin-top: 5px;
+  color:white;
+  padding: 5px;
+  border-radius: .35rem;
+  background-color: #28a745;
+}
+a .button_ingredient_add:hover{
+  color: white;
+  transition: 0.2s;
+}
+.button_ingredient_add{
+  color:white;
+  padding: 5px;
+  border-radius: .35rem;
+  background-color: #28a745;
+}
+a .button_ingredient:hover{
+  color: white;
+  background-color: #28a745;
+  transition: 0.2s;
+}
+.button_ingredient{
+  color:white;
+  padding: 5px;
+  border-radius: .35rem;
+  background-color: rgb(0 123 255);
+}
+a .button_deconnexion:hover{
+  color: white;
+  background-color: #EC0404;
+  transition: 0.2s;
+}
+.button_deconnexion{
+  color:white;
+  padding: 5px;
+  border-radius: .35rem;
+  background-color: rgb(0 123 255);
+}
+.ingredient_affichage{
+  position:relative;
+  z-index: 1;
+}
+.croix_ingredient{
+  position:absolute;
+  top: 0px;
+  right: 10px;
+  z-index: 3;
+}
+a.croix_ingredient:hover{
+  cursor:pointer;
+}
+.container3{
+  margin:auto; 
+}
+.card_profil{
+  margin-bottom: 30px;
+}
+.title-profil{
+  margin-bottom: 40px;
+}
+.parametre_profil{
+  color: rgb(0 123 255);
+}
+.line_profil{
+  position: relative;
+}
+.image_fleche{
+  width:15px; 
+  position:absolute; 
+  top:10px; 
+  right:25px;
+}
+  @media (min-width: 768px) {
+    .bd-placeholder-img-sm {
+      font-size: 3.5rem;
+    }
+  }
+  @media (min-width:992px){
+    .container3{
+        max-width: 900px;
+    }
+}
+@media (max-width: 900px){
+    .container3{
+        max-width:450px;
+    }
+}    
